@@ -48,14 +48,14 @@ app.use(bodyParser.json());
 app.use(cors({ origin: /http:\/\/(127(\.\d){3}|localhost)/}));
 app.options('*', cors());
 
-// ***************************************************************************
+
 
 // Configure routes
 const router = express.Router();
 
 // Hello World for index page
 app.get('/', function (req, res) {
-    return res.send("Hello World!");
+    return res.send("Hello World!!!!!!!");
 })
 
 app.get('/api', function (req, res) {
